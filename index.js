@@ -550,7 +550,7 @@ client.on('interactionCreate', async (interaction) => {
 
 client.once('ready', async () => {
     console.log(`[LOG] Bot is online as ${client.user.tag}`);
-
+    console.log("[LOG] Credits to Starlover for development");
     try {
         client.user.setActivity(config.status, { type: 'WATCHING' });
 
