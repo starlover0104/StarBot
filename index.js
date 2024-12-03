@@ -13,8 +13,7 @@ const installDependencies = () => {
         }
 
         if (stderr) {
-            console.error(`stderr: ${stderr}`);
-            return;
+            console.warn(`stderr: ${stderr}`);
         }
 
         console.log("Packages installed successfully:\n", stdout);
@@ -31,7 +30,7 @@ try {
     installDependencies();
 }
 
-require('dotenv').config({path:'.env'});
+require('dotenv').config({ path: '.env' });
 const fs = require('fs');
 const path = require('path');
 const { 
