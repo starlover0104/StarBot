@@ -4,7 +4,7 @@ A moderation discord bot that I made to improve my own server, and add personali
 ## How to use
 1. Run `cd <dir>` (`Set-Location` can be used if running PowerShell)
 2. If using npm, run `npm install [packages]` in your command line, or if you prefer to use yarn, run `yarn add [packages]`
-3. Copy the .env.example file and rename the copy to .env, and input the required details from your [Reddit APP](https://www.reddit.com/prefs/apps) and [Discord developer dashboard](
+3. Copy the .env.example file and rename the copy to .env, and input the required details from your [Reddit APP](https://www.reddit.com/prefs/apps) and [Discord Developer Dashboard](https://discord.com/developers/applications)
 4. Run `py main.py` or `python main.py`
 5. 
 ## Issues
